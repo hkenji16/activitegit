@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+}
+
+.column1, .column2 {
+    margin: 50px 25%;
+    display: flex;
+}

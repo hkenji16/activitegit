@@ -1,13 +1,100 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 ul {
     list-style-type: none;
+    text-align: right;
+    margin-right: 15%;
+    padding-top: 30px;
 }
 
 li {
     display: inline;
-    padding: 5px;
+    padding: 10px;
 }
 
-.column1, .column2 {
+.column1, .column2, .column3 {
     margin: 50px 25%;
+    padding: 10px;
     display: flex;
+}
+
+.column2 ,.column4{
+    background-color: rgb(243, 242, 242);
+}
+
+.column1 div {
+    margin-right: 10px;
+}
+
+.column2 div {
+    margin-left: 15px;
+} 
+
+header {
+    background-image: url(zoltan-tasi-1199591-unsplash.jpg);
+    color: white;
+    text-align: center;
+    height: 300px;
+}
+
+h1 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 35px;
+}
+
+header div {
+    float: left;
+    margin-left: 15%;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.column3 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column3 div {
+    width: 45%;
+}
+
+.column3 i {
+    padding-top: 20px;
+    float: left;
+}
+
+.column3 h3, .column3 p {
+    margin-left: 70px;
+}
+
+.column4  {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.box {
+    text-align: justify;
+    padding: 15px 50px;
+    width: 50%;
+    border: 1px solid rgb(202, 202, 202);
+    background-color: white;
+    margin-top: 50px;
+}
+
+.blue {
+    color: rgb(109, 109, 255);
 }

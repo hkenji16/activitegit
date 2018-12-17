@@ -81,9 +81,14 @@ header div {
     margin-left: 70px;
 }
 
-.column4  {
+.column4, .column5  {
     text-align: center;
     padding: 25px 0;
+}
+
+.column5 {
+    color: white;
+    background-color: black;
 }
 
 .box {
